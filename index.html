@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Balaji S — Web Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Balaji S, a passionate Web Developer specializing in modern frontend, responsive design, and performant web applications."/>
+  
+  <!-- Open Graph / SEO Metadata -->
+  <meta property="og:title" content="Balaji S — Web Developer Portfolio"/>
+  <meta property="og:description" content="Explore the portfolio of Balaji S, highlighting responsive web engineering, frontend UI/UX, and dynamic web application services."/>
+  <meta property="og:image" content="assets/profile.jpg"/>
+  <meta property="og:type" content="website"/>
+  <meta name="robots" content="index, follow"/>
+
+  <!-- JSON-LD Structured Data Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Balaji S",
+    "jobTitle": "Web Developer",
+    "url": "https://www.linkedin.com/in/balaji-s-668727384",
+    "email": "mailto:balaji2909.s@gmail.com",
+    "telephone": "+917010622566",
+    "sameAs": [
+      "https://www.linkedin.com/in/balaji-s-668727384"
+    ],
+    "knowsAbout": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "REST APIs",
+      "Responsive Design"
+    ]
+  }
+  </script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet"/>
+  
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-brand">
+      <img src="assets/logo.jpg" alt="Balaji S Logo" class="nav-brand-logo"/>Balaji S
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a class="nav-a" href="#about">About</a></li>
+      <li><a class="nav-a" href="#services">Services</a></li>
+      <li><a class="nav-a" href="#projects">Work</a></li>
+      <li><a class="nav-a" href="#skills">Skills</a></li>
+      <li><a class="nav-a" href="#contact">Contact</a></li>
+      <li><a class="nav-a cta secure-email-link" data-u="YmFsYWppMjkwOS5z" data-d="Z21haWwuY29t" href="#">Hire Me</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-left">
+
+          <h1 class="hero-title" data-reveal="top" data-reveal-delay=".2">
+            <span class="hi">Hello, I'm</span>
+            <span class="name-accent">Balaji S,</span><br>
+            <span class="role-line"><span class="role-underline">Web Developer</span></span>
+          </h1>
+          <p class="hero-desc" data-reveal="top" data-reveal-delay=".35">
+            A results-driven Web Developer passionate about building high-performance, user-centric web applications and modern interactive web experiences.
+          </p>
+          <div class="hero-btns" data-reveal="top" data-reveal-delay=".45">
+            <a href="#projects" class="btn-solid"><span>View My Work</span> <span>→</span></a>
+            <a href="#contact" class="btn-outline">Get in Touch</a>
+            <a href="assets/resume.pdf" download="Balaji_S_Resume.pdf" class="btn-outline resume-download-btn"><i class="fa-solid fa-download"></i> Resume</a>
+          </div>
+          <div class="hero-social" data-reveal="top" data-reveal-delay=".55">
+            <a href="https://www.linkedin.com/in/balaji-s-668727384?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon secure-email-link" data-u="YmFsYWppMjkwOS5z" data-d="Z21haWwuY29t" title="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:7010622566" class="social-icon" title="Phone"><i class="fa-solid fa-phone"></i></a>
+            <a href="#contact" class="social-icon" title="Contact Form"><i class="fa-solid fa-paper-plane"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-right" data-reveal="right" data-reveal-delay=".2">
+          <div class="hero-photo-wrap">
+            <div class="hero-photo">
+              <img src="assets/profile.jpg" alt="Balaji S - Web Developer" class="hero-img"/>
+              <div class="hero-photo-accent"></div>
+            </div>
+            <div class="dot-grid"></div>
+            <div class="dot-grid-2"></div>
+
+            <div class="badge-float badge-1">
+              <div class="badge-icon" style="background:#fff8e8">🏆</div>
+              <div class="badge-text">
+                <strong>25+</strong>
+                <span>Projects Completed</span>
+              </div>
+            </div>
+            <div class="badge-float badge-2">
+              <div class="badge-icon" style="background:#f0fdf4">⭐</div>
+              <div class="badge-text">
+                <strong>100%</strong>
+                <span>Client Satisfaction</span>
+              </div>
+            </div>
+            <div class="badge-float badge-3">
+              <div class="badge-icon" style="background:var(--yellow-bg)">⚡</div>
+              <div class="badge-text">
+                <strong>Web Dev</strong>
+                <span>Full Stack Solutions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-hint-line"></div>
+      <div class="scroll-hint-txt">Scroll</div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-strip">
+    <div class="marquee-inner">
+      <div class="mq-item"><div class="mq-dot"></div>HTML5 & CSS3</div>
+      <div class="mq-item"><div class="mq-dot"></div>JavaScript (ES6+)</div>
+      <div class="mq-item"><div class="mq-dot"></div>React & Next.js</div>
+      <div class="mq-item"><div class="mq-dot"></div>Responsive Web Design</div>
+      <div class="mq-item"><div class="mq-dot"></div>Node.js & APIs</div>
+      <div class="mq-item"><div class="mq-dot"></div>UI/UX Optimization</div>
+      <div class="mq-item"><div class="mq-dot"></div>Tailwind & Modern CSS</div>
+      <div class="mq-item"><div class="mq-dot"></div>Git & GitHub</div>
+      <div class="mq-item"><div class="mq-dot"></div>HTML5 & CSS3</div>
+      <div class="mq-item"><div class="mq-dot"></div>JavaScript (ES6+)</div>
+      <div class="mq-item"><div class="mq-dot"></div>React & Next.js</div>
+      <div class="mq-item"><div class="mq-dot"></div>Responsive Web Design</div>
+      <div class="mq-item"><div class="mq-dot"></div>Node.js & APIs</div>
+      <div class="mq-item"><div class="mq-dot"></div>UI/UX Optimization</div>
+      <div class="mq-item"><div class="mq-dot"></div>Tailwind & Modern CSS</div>
+      <div class="mq-item"><div class="mq-dot"></div>Git & GitHub</div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrap" data-reveal="left">
+          <div class="about-img">
+            <img src="assets/profile.jpg" alt="Balaji S - Profile" class="about-profile-img"/>
+          </div>
+          <div class="about-yrs-badge">
+            <div class="num">Web</div>
+            <div class="lbl">Developer</div>
+          </div>
+        </div>
+        <div class="about-text" data-reveal="right" data-reveal-delay=".15">
+          <div class="sec-label">About Me</div>
+          <h2 class="sec-title">Passionate about crafting <em>modern web solutions</em></h2>
+          <p class="about-desc">
+            Hi, I'm Balaji S! I am a dedicated Web Developer specializing in transforming creative ideas into intuitive, high-performance web applications. I focus on writing clean, scalable code and delivering seamless user experiences.
+          </p>
+          <p class="about-desc">
+            Whether building responsive single-page applications, integrating complex APIs, or optimizing web performance, I take pride in crafting reliable and aesthetic digital products.
+          </p>
+          <div class="about-stats">
+            <div class="astat">
+              <div class="astat-num" data-count="25">0</div>
+              <div class="astat-lbl">Projects</div>
+            </div>
+            <div class="astat-sep"></div>
+            <div class="astat">
+              <div class="astat-num" data-count="15">0</div>
+              <div class="astat-lbl">Happy Clients</div>
+            </div>
+            <div class="astat-sep"></div>
+            <div class="astat">
+              <div class="astat-num" data-count="100">0</div>
+              <div class="astat-lbl">% Dedicated</div>
+            </div>
+          </div>
+          <div class="skill-pills">
+            <div class="pill">HTML5 / CSS3</div>
+            <div class="pill">JavaScript</div>
+            <div class="pill">React.js</div>
+            <div class="pill">Next.js</div>
+            <div class="pill">Node.js</div>
+            <div class="pill">REST APIs</div>
+            <div class="pill">Git / GitHub</div>
+            <div class="pill">Responsive Design</div>
+            <div class="pill">UI/UX Best Practices</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="services-header">
+        <div data-reveal="bottom">
+          <div class="sec-label">What I Do</div>
+          <h2 class="sec-title">Services I <em>offer</em></h2>
+        </div>
+        <a href="#contact" class="btn-solid" data-reveal="bottom" data-reveal-delay=".15"><span>Work With Me</span><span>→</span></a>
+      </div>
+      <div class="services-grid">
+        <div class="srv-card" data-reveal="bottom" data-reveal-delay=".1">
+          <div class="srv-num">01</div>
+          <div class="srv-icon">⚡</div>
+          <div class="srv-title">Web Development</div>
+          <div class="srv-desc">Building fast, mobile-friendly, and accessible websites using modern HTML, CSS, JavaScript, and frontend frameworks.</div>
+          <div class="srv-tags"><span class="srv-tag">HTML/CSS</span><span class="srv-tag">JavaScript</span><span class="srv-tag">React</span></div>
+        </div>
+        <div class="srv-card" data-reveal="bottom" data-reveal-delay=".2">
+          <div class="srv-num">02</div>
+          <div class="srv-icon">🎨</div>
+          <div class="srv-title">Frontend UI Engineering</div>
+          <div class="srv-desc">Transforming Figma & UI designs into clean, responsive, and pixel-perfect interactive web interfaces.</div>
+          <div class="srv-tags"><span class="srv-tag">Responsive UI</span><span class="srv-tag">Component Design</span></div>
+        </div>
+        <div class="srv-card" data-reveal="bottom" data-reveal-delay=".3">
+          <div class="srv-num">03</div>
+          <div class="srv-icon">🛠️</div>
+          <div class="srv-title">API & Backend Integration</div>
+          <div class="srv-desc">Connecting frontend apps with RESTful APIs, database services, and asynchronous server workflows.</div>
+          <div class="srv-tags"><span class="srv-tag">REST APIs</span><span class="srv-tag">Node.js</span><span class="srv-tag">JSON</span></div>
+        </div>
+        <div class="srv-card" data-reveal="bottom" data-reveal-delay=".15">
+          <div class="srv-num">04</div>
+          <div class="srv-icon">📱</div>
+          <div class="srv-title">Mobile-First Development</div>
+          <div class="srv-desc">Ensuring full responsiveness across all viewports—smartphones, tablets, and desktop displays.</div>
+          <div class="srv-tags"><span class="srv-tag">Cross-Browser</span><span class="srv-tag">Mobile Optimization</span></div>
+        </div>
+        <div class="srv-card" data-reveal="bottom" data-reveal-delay=".25">
+          <div class="srv-num">05</div>
+          <div class="srv-icon">✨</div>
+          <div class="srv-title">Interactive UI & Animation</div>
+          <div class="srv-desc">Enhancing overall user engagement through subtle micro-interactions, CSS transitions, and dynamic effects.</div>
+          <div class="srv-tags"><span class="srv-tag">CSS3</span><span class="srv-tag">JS Animation</span></div>
+        </div>
+        <div class="srv-card" data-reveal="bottom" data-reveal-delay=".35">
+          <div class="srv-num">06</div>
+          <div class="srv-icon">🚀</div>
+          <div class="srv-title">Website Speed & SEO</div>
+          <div class="srv-desc">Optimizing load times, assets, and semantic structure for maximum lighthouse performance and SEO visibility.</div>
+          <div class="srv-tags"><span class="srv-tag">SEO</span><span class="srv-tag">Performance</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:40px" data-reveal="bottom">
+        <div>
+          <div class="sec-label">Portfolio</div>
+          <h2 class="sec-title">Featured <em>projects</em></h2>
+        </div>
+        <div class="proj-filters">
+          <button class="pf-btn active" data-f="all">All</button>
+          <button class="pf-btn" data-f="web">Web Apps</button>
+          <button class="pf-btn" data-f="ui">UI/UX</button>
+          <button class="pf-btn" data-f="api">API Projects</button>
+        </div>
+      </div>
+      <div class="proj-grid">
+        <div class="proj-item span-7" data-reveal="bottom" data-reveal-delay=".1" data-cat="web">
+          <div class="proj-thumb">
+            <div class="proj-thumb-bg" style="background:linear-gradient(135deg,#fff8e8,#fde68a,#f59e0b)">🚀</div>
+            <div class="proj-overlay">
+              <div class="proj-overlay-title">Dynamic E-Commerce Portal</div>
+              <div class="proj-overlay-tags">
+                <span class="proj-overlay-tag">React</span><span class="proj-overlay-tag">JavaScript</span><span class="proj-overlay-tag">CSS Grid</span>
+              </div>
+              <div class="proj-overlay-links">
+                <a href="#contact" class="proj-lnk">Inquire Project ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="proj-info">
+            <div class="proj-year">2026 · Web Application</div>
+            <div class="proj-name">Dynamic E-Commerce Portal</div>
+          </div>
+        </div>
+
+        <div class="proj-item span-5" data-reveal="bottom" data-reveal-delay=".2" data-cat="ui">
+          <div class="proj-thumb">
+            <div class="proj-thumb-bg" style="background:linear-gradient(135deg,#f0fdf4,#a7f3d0,#10b981)">🌿</div>
+            <div class="proj-overlay">
+              <div class="proj-overlay-title">Responsive Finance Dashboard</div>
+              <div class="proj-overlay-tags"><span class="proj-overlay-tag">HTML5/CSS3</span><span class="proj-overlay-tag">Chart.js</span></div>
+              <div class="proj-overlay-links"><a href="#contact" class="proj-lnk">View Case Study ↗</a></div>
+            </div>
+          </div>
+          <div class="proj-info">
+            <div class="proj-year">2025 · UI/UX Design</div>
+            <div class="proj-name">Responsive Finance Dashboard</div>
+          </div>
+        </div>
+
+        <div class="proj-item span-4" data-reveal="bottom" data-reveal-delay=".1" data-cat="api">
+          <div class="proj-thumb">
+            <div class="proj-thumb-bg" style="background:linear-gradient(135deg,#fdf4ff,#e9d5ff,#8b5cf6)">⚡</div>
+            <div class="proj-overlay">
+              <div class="proj-overlay-title">Real-Time Weather & News API</div>
+              <div class="proj-overlay-tags"><span class="proj-overlay-tag">REST API</span><span class="proj-overlay-tag">Async JS</span></div>
+              <div class="proj-overlay-links"><a href="#contact" class="proj-lnk">Explore ↗</a></div>
+            </div>
+          </div>
+          <div class="proj-info">
+            <div class="proj-year">2025 · API Integration</div>
+            <div class="proj-name">Real-Time Weather & News App</div>
+          </div>
+        </div>
+
+        <div class="proj-item span-8" data-reveal="bottom" data-reveal-delay=".2" data-cat="web">
+          <div class="proj-thumb">
+            <div class="proj-thumb-bg" style="background:linear-gradient(135deg,#fff1f2,#fecdd3,#f43f5e)">💻</div>
+            <div class="proj-overlay">
+              <div class="proj-overlay-title">Corporate Business Website</div>
+              <div class="proj-overlay-tags"><span class="proj-overlay-tag">JavaScript</span><span class="proj-overlay-tag">Modern Web</span></div>
+              <div class="proj-overlay-links"><a href="#contact" class="proj-lnk">Preview ↗</a></div>
+            </div>
+          </div>
+          <div class="proj-info">
+            <div class="proj-year">2025 · Web Development</div>
+            <div class="proj-name">Corporate Business Suite</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS + EXP -->
+  <section id="skills">
+    <div class="container">
+      <div style="margin-bottom:56px" data-reveal="bottom">
+        <div class="sec-label">Expertise</div>
+        <h2 class="sec-title">Skills & <em>proficiencies</em></h2>
+      </div>
+      <div class="skills-layout">
+        <div data-reveal="left">
+          <div class="skill-cat">
+            <div class="skill-cat-title">Frontend Technologies</div>
+            <div><div class="skill-row"><span class="skill-name">HTML5 & Semantic Markup</span><span class="skill-pct">95%</span></div><div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div></div>
+            <div><div class="skill-row"><span class="skill-name">CSS3, Flexbox & Grid</span><span class="skill-pct">92%</span></div><div class="skill-bar"><div class="skill-fill" style="width:92%"></div></div></div>
+            <div><div class="skill-row"><span class="skill-name">JavaScript (ES6+)</span><span class="skill-pct">90%</span></div><div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div></div>
+            <div><div class="skill-row"><span class="skill-name">React.js & Next.js</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+          </div>
+          <div class="skill-cat">
+            <div class="skill-cat-title">Development & Tools</div>
+            <div><div class="skill-row"><span class="skill-name">RESTful APIs & Fetch</span><span class="skill-pct">88%</span></div><div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div></div>
+            <div><div class="skill-row"><span class="skill-name">Git & GitHub</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+            <div><div class="skill-row"><span class="skill-name">Responsive Design & Mobile-First</span><span class="skill-pct">94%</span></div><div class="skill-bar"><div class="skill-fill" style="width:94%"></div></div></div>
+          </div>
+        </div>
+
+        <div data-reveal="right" data-reveal-delay=".15">
+          <div class="exp-card">
+            <div class="exp-period">Present</div>
+            <div class="exp-role">Web Developer</div>
+            <div class="exp-co">Balaji S · Tech Solutions</div>
+            <div class="exp-desc">Designing and engineering dynamic, high-quality web applications with modern frontend technologies, ensuring optimal performance and responsive accessibility across devices.</div>
+          </div>
+          <div class="exp-card">
+            <div class="exp-period">Frontend Focus</div>
+            <div class="exp-role">UI/UX Implementation Specialist</div>
+            <div class="exp-co">Web Development Projects</div>
+            <div class="exp-desc">Translating client requirements into clean functional layouts, writing maintainable modular code, and building fast intuitive interfaces.</div>
+          </div>
+          <div class="exp-card">
+            <div class="exp-period">Continuous Learning</div>
+            <div class="exp-role">Modern JavaScript & Frameworks</div>
+            <div class="exp-co">Self-Driven Mastery</div>
+            <div class="exp-desc">Regularly exploring standard Web APIs, modern CSS features, state management solutions, and full-stack integration techniques.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLIP CARDS -->
+  <section id="cards">
+    <div class="container">
+      <div class="cards-intro">
+        <div data-reveal="bottom">
+          <div class="sec-label">Quick Overview</div>
+          <h2 class="sec-title">Hover to <em>explore</em></h2>
+        </div>
+        <p class="sec-sub" data-reveal="bottom" data-reveal-delay=".15">Discover key strengths, expertise, and developer services at a glance.</p>
+      </div>
+      <div class="fc-grid">
+
+        <div class="fc" tabindex="0" data-reveal="zoom" data-reveal-delay=".05">
+          <div class="fc-inner">
+            <div class="fc-back">
+              <div class="fc-sweep" style="background:linear-gradient(90deg,transparent,rgba(255,209,102,.55),rgba(255,194,51,.55),rgba(255,209,102,.55),transparent)"></div>
+              <div class="fc-orb fc-orb-a" style="background:#FFD166"></div>
+              <div class="fc-orb fc-orb-b" style="background:#FFC233"></div>
+              <div class="fc-orb fc-orb-c" style="background:#f59e0b"></div>
+              <div class="fc-body">
+                <div class="fc-icon">⚛️</div>
+                <div class="fc-name">Web Engineering</div>
+                <div class="fc-subdesc">React, HTML5, CSS3 & JavaScript for clean, responsive interfaces.</div>
+                <a class="fc-cta" href="#projects">See Work ↗</a>
+              </div>
+            </div>
+            <div class="fc-front" style="background:linear-gradient(145deg,#fff8e8,#fef3c7)">
+              <div class="fc-front-bg">⚛️</div>
+              <div class="fc-badge-label">Frontend</div>
+              <div class="fc-desc-box">
+                <div class="fc-desc-row"><span>Web Developer</span><span style="color:#f59e0b">⚡</span></div>
+                <div class="fc-desc-foot">Modern Web Solutions</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fc" tabindex="0" data-reveal="zoom" data-reveal-delay=".1">
+          <div class="fc-inner">
+            <div class="fc-back">
+              <div class="fc-sweep" style="background:linear-gradient(90deg,transparent,rgba(16,185,129,.4),rgba(52,211,153,.4),rgba(16,185,129,.4),transparent)"></div>
+              <div class="fc-orb fc-orb-a" style="background:#10b981"></div>
+              <div class="fc-orb fc-orb-b" style="background:#34d399"></div>
+              <div class="fc-orb fc-orb-c" style="background:#059669"></div>
+              <div class="fc-body">
+                <div class="fc-icon">📱</div>
+                <div class="fc-name">Responsive Design</div>
+                <div class="fc-subdesc">Mobile-first layouts adaptable to screens of all sizes.</div>
+                <a class="fc-cta" href="#services">View Services ↗</a>
+              </div>
+            </div>
+            <div class="fc-front" style="background:linear-gradient(145deg,#f0fdf4,#dcfce7)">
+              <div class="fc-front-bg">📱</div>
+              <div class="fc-badge-label">Mobile First</div>
+              <div class="fc-desc-box">
+                <div class="fc-desc-row"><span>Cross Device</span><span style="color:#10b981">📱</span></div>
+                <div class="fc-desc-foot">100% Fluid Layouts</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fc" tabindex="0" data-reveal="zoom" data-reveal-delay=".15">
+          <div class="fc-inner">
+            <div class="fc-back">
+              <div class="fc-sweep" style="background:linear-gradient(90deg,transparent,rgba(139,92,246,.4),rgba(192,132,252,.4),rgba(139,92,246,.4),transparent)"></div>
+              <div class="fc-orb fc-orb-a" style="background:#8b5cf6"></div>
+              <div class="fc-orb fc-orb-b" style="background:#c084fc"></div>
+              <div class="fc-orb fc-orb-c" style="background:#a855f7"></div>
+              <div class="fc-body">
+                <div class="fc-icon">🔗</div>
+                <div class="fc-name">LinkedIn Profile</div>
+                <div class="fc-subdesc">Connect with Balaji S on LinkedIn for opportunities and collaboration.</div>
+                <a class="fc-cta" href="https://www.linkedin.com/in/balaji-s-668727384?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+              </div>
+            </div>
+            <div class="fc-front" style="background:linear-gradient(145deg,#fdf4ff,#ede9fe)">
+              <div class="fc-front-bg">🔗</div>
+              <div class="fc-badge-label">Connect</div>
+              <div class="fc-desc-box">
+                <div class="fc-desc-row"><span>Professional</span><span style="color:#8b5cf6">💼</span></div>
+                <div class="fc-desc-foot">Balaji S LinkedIn</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fc" tabindex="0" data-reveal="zoom" data-reveal-delay=".2">
+          <div class="fc-inner">
+            <div class="fc-back">
+              <div class="fc-sweep" style="background:linear-gradient(90deg,transparent,rgba(6,182,212,.4),rgba(34,211,238,.4),rgba(6,182,212,.4),transparent)"></div>
+              <div class="fc-orb fc-orb-a" style="background:#06b6d4"></div>
+              <div class="fc-orb fc-orb-b" style="background:#22d3ee"></div>
+              <div class="fc-orb fc-orb-c" style="background:#0891b2"></div>
+              <div class="fc-body">
+                <div class="fc-icon">✉️</div>
+                <div class="fc-name">Direct Email</div>
+                <div class="fc-subdesc">Fast turnaround for inquiries via <span class="obfuscate-text" data-u="YmFsYWppMjkwOS5z" data-d="Z21haWwuY29t">Email</span></div>
+                <a class="fc-cta secure-email-link" data-u="YmFsYWppMjkwOS5z" data-d="Z21haWwuY29t" href="#">Send Email ↗</a>
+              </div>
+            </div>
+            <div class="fc-front" style="background:linear-gradient(145deg,#ecfeff,#cffafe)">
+              <div class="fc-front-bg">✉️</div>
+              <div class="fc-badge-label">Email</div>
+              <div class="fc-desc-box">
+                <div class="fc-desc-row"><span>Reach Out</span><span style="color:#06b6d4">✉️</span></div>
+                <div class="fc-desc-foot obfuscate-text" data-u="YmFsYWppMjkwOS5z" data-d="Z21haWwuY29t">Reveal Email</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fc" tabindex="0" data-reveal="zoom" data-reveal-delay=".25">
+          <div class="fc-inner">
+            <div class="fc-back">
+              <div class="fc-sweep" style="background:linear-gradient(90deg,transparent,rgba(244,63,94,.4),rgba(251,113,133,.4),rgba(244,63,94,.4),transparent)"></div>
+              <div class="fc-orb fc-orb-a" style="background:#f43f5e"></div>
+              <div class="fc-orb fc-orb-b" style="background:#fb7185"></div>
+              <div class="fc-orb fc-orb-c" style="background:#e11d48"></div>
+              <div class="fc-body">
+                <div class="fc-icon">📞</div>
+                <div class="fc-name">Phone Contact</div>
+                <div class="fc-subdesc">Available for calls and messaging at +91 7010622566</div>
+                <a class="fc-cta" href="tel:7010622566">Call Now ↗</a>
+              </div>
+            </div>
+            <div class="fc-front" style="background:linear-gradient(145deg,#fff1f2,#ffe4e6)">
+              <div class="fc-front-bg">📞</div>
+              <div class="fc-badge-label">Call</div>
+              <div class="fc-desc-box">
+                <div class="fc-desc-row"><span>Direct Phone</span><span style="color:#f43f5e">📞</span></div>
+                <div class="fc-desc-foot">7010622566</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="testi-head" data-reveal="bottom">
+        <div class="sec-label">Testimonials</div>
+        <h2>What clients & team members <em>say</em></h2>
+      </div>
+      <div class="testi-track">
+        <div class="testi-card" data-reveal="bottom" data-reveal-delay=".1">
+          <div class="testi-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="testi-quote">"Balaji transformed our outdated web layout into a sleek, responsive site in record time. His attention to detail and modern code structure is exceptional."</div>
+          <div class="testi-author">
+            <div class="testi-avatar">👩💼</div>
+            <div class="testi-author-info"><strong>Sarah Jenkins</strong><span>Product Lead</span></div>
+          </div>
+        </div>
+        <div class="testi-card" data-reveal="bottom" data-reveal-delay=".2">
+          <div class="testi-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="testi-quote">"Working with Balaji was seamless. He understood our project goals immediately and delivered clean, maintainable code with great performance."</div>
+          <div class="testi-author">
+            <div class="testi-avatar">👨💻</div>
+            <div class="testi-author-info"><strong>David Kumar</strong><span>Tech Director</span></div>
+          </div>
+        </div>
+        <div class="testi-card" data-reveal="bottom" data-reveal-delay=".3">
+          <div class="testi-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="testi-quote">"Balaji is an extraordinarily diligent Web Developer. He communicates promptly, resolves technical challenges efficiently, and delivers top-tier results."</div>
+          <div class="testi-author">
+            <div class="testi-avatar">👩🎨</div>
+            <div class="testi-author-info"><strong>Priya Sundaram</strong><span>UI Designer</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div data-reveal="left">
+          <div class="sec-label">Contact</div>
+          <h2 class="sec-title">Let's work <em>together</em></h2>
+          <p class="sec-sub">Have a project, job opportunity, or collaboration idea? Feel free to reach out directly via email, phone, or LinkedIn!</p>
+          
+          <div class="contact-info-items">
+            <a href="#" class="ci-item secure-email-link" data-u="YmFsYWppMjkwOS5z" data-d="Z21haWwuY29t">
+              <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="ci-text">
+                <strong>Email</strong>
+                <span class="obfuscate-text" data-u="YmFsYWppMjkwOS5z" data-d="Z21haWwuY29t">Reveal Email</span>
+              </div>
+              <div class="ci-arr">↗</div>
+            </a>
+            
+            <a href="tel:7010622566" class="ci-item">
+              <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="ci-text">
+                <strong>Phone</strong>
+                <span>+91 7010622566</span>
+              </div>
+              <div class="ci-arr">↗</div>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/balaji-s-668727384?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="ci-item">
+              <div class="ci-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="ci-text">
+                <strong>LinkedIn</strong>
+                <span>linkedin.com/in/balaji-s-668727384</span>
+              </div>
+              <div class="ci-arr">↗</div>
+            </a>
+            
+            <div class="ci-item">
+              <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="ci-text">
+                <strong>Role & Status</strong>
+                <span>Web Developer · Open for Opportunities</span>
+              </div>
+              <div class="ci-arr">→</div>
+            </div>
+          </div>
+        </div>
+
+        <div data-reveal="right" data-reveal-delay=".15">
+          <form class="form-wrap" id="cform">
+            <div class="form-row">
+              <div class="fg">
+                <label class="fl">Your Name</label>
+                <input class="fi" type="text" id="form-name" placeholder="Balaji / Your Name" required/>
+              </div>
+              <div class="fg">
+                <label class="fl">Your Email</label>
+                <input class="fi" type="email" id="form-email" placeholder="your@email.com" required/>
+              </div>
+            </div>
+            <div class="fg">
+              <label class="fl">Subject</label>
+              <input class="fi" type="text" id="form-subject" placeholder="Project Inquiry / Job Opportunity" required/>
+            </div>
+            <div class="fg">
+              <label class="fl">Message</label>
+              <textarea class="ft" id="form-message" placeholder="Tell me about your project, goals, or timeline..." required></textarea>
+            </div>
+            <button type="submit" class="form-submit">
+              <div class="form-submit-inner">
+                <span>Send Message</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+              </div>
+            </button>
+            <div id="form-ok" class="form-success-msg">
+              ✓ Message client launched! If your mail client didn't open automatically, email me directly at <strong class="obfuscate-text" data-u="YmFsYWppMjkwOS5z" data-d="Z21haWwuY29t">Reveal Email</strong>.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-copy">Balaji S · Web Developer Portfolio</div>
+        <div class="footer-links">
+          <a class="footer-l" href="#hero">Back to top ↑</a>
+          <a class="footer-l secure-email-link" data-u="YmFsYWppMjkwOS5z" data-d="Z21haWwuY29t" href="#">Email Me</a>
+          <a class="footer-l" href="https://www.linkedin.com/in/balaji-s-668727384?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- External Script -->
+  <script src="script.js"></script>
+</body>
+</html>
